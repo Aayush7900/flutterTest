@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  return runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.red,
+        appBar: AppBar(
+          title: Text('Dice'),
+          backgroundColor: Colors.red,
+        ),
+        body: DicePage(),
+      ),
+    ),
+  );
 }
 
-class MyApp extends StatelessWidget {
+class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return Row(
+      children: [Image(image: AssetImage('images/dice1.png'))],
+    );
   }
 }
