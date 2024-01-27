@@ -63,8 +63,8 @@ class _DicePageState extends State<DicePage> {
   int rightDiceNumber = 2;
 
   void gen() {
-    leftDiceNumber = Random().nextInt(6) + 1;
-    rightDiceNumber = Random().nextInt(6) + 1;
+    leftDiceNumber = Random().nextInt(6);
+    rightDiceNumber = Random().nextInt(6);
   }
 
   @override
