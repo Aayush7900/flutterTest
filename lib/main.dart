@@ -31,7 +31,7 @@ class XylophoneApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.blue.shade900,
           centerTitle: true,
-          title: Text('hii'),
+          title: Text('Xylophone'),
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -42,8 +42,7 @@ class XylophoneApp extends StatelessWidget {
             buildKey(color: Colors.green, num: 4),
             buildKey(color: Colors.blue, num: 5),
             buildKey(color: Colors.indigo, num: 6),
-            buildKey(color: Colors.purple, num: 7),
-            buildKey()
+            buildKey(color: Colors.purple, num: 7)
           ],
         ),
       ),
