@@ -10,7 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: 1.0.6
+  cupertino_icons: ^1.0.6
+  english_words: ^4.0.0
+  audioplayers: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +24,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/sounds/
 
   fonts:
     - family: Pacifico
